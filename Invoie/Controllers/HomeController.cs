@@ -27,11 +27,11 @@ namespace Invoie.Controllers
             return View();
         }
 
-        public ActionResult Contact1()
+        public string Contact1()
         {
-            ViewBag.Message = "Your contact page.";
+            string ss = "Your contact page.";
 
-            return View();
+            return ss;
         }
 
        
